@@ -1,0 +1,393 @@
+html {
+  background: url('https://t3.ftcdn.net/jpg/03/28/80/62/360_F_328806223_xSmECZ5UnXQwmsq5rwxzkWQZby1Inw1b.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+body {
+  animation-name: fadeIn;
+  animation-duration: 2s;
+}
+
+/* config da logo*/
+.logo{
+color: #301868;
+max-width: 80%;
+margin: 0;
+padding: 15px;
+font-size: 25px;
+
+}
+/*por cada div em cada lugar: div logo esquerda*/
+.logo-container{ 
+  float:left;
+}
+/*por cada div em cada lugar: div numero direita*/
+.numero-container{
+  float:right;
+}
+/*config do numero*/
+.numero{
+color: #301868;
+margin: 0;
+font-size: 20px;
+  margin-right: 18px;
+  background-color: #8a5fec;
+  border-radius: 8px;
+  height: 22px;
+
+}
+
+
+
+
+/* config do texto da headline*/
+.headline {
+	width: 50%;
+	margin: 0 auto;
+	padding: 100px;
+  color: #301868;
+  background-color: #000000;
+  font-size: 20px;
+  text-align: left-center;
+  float:left;
+  border-color: #5b4398;
+  border-radius: 8px;
+  border: solid;
+  height: 280px;
+  margin-top: 55px;
+  margin-bottom: 20px;
+}
+/*config do body*/
+
+
+  
+
+  
+
+
+
+/* config da caixa de newsletter*/
+.newsletter {
+  float: right;
+	padding: right;
+  border-radius: 8px;
+  background-color: #837a94;
+  color:#301868;
+  margin-right: 100px;
+  text-align: center;
+  width: 230px;
+  height: 402px;
+  font-size: 17px;
+  margin-top: 90px;
+  
+
+}
+
+form {
+	display: flex;
+	flex-direction: column
+  
+}
+
+label {
+	margin-bottom: 13px;
+}
+/* config da caixa de texto*/
+input {
+	margin-bottom: 50px;
+	padding: 8px;
+	border-radius: 5px;
+	border: 4px, #9271d6;
+  margin: 0 auto;
+  min-width: 10%;
+}
+/* config do botão*/
+button {
+	padding: 10px 20px;
+	border-radius: 5px;
+	background-color: #301868;
+	color: #fff;
+  border:none;
+	cursor: pointer;
+  margin: 0 auto;
+  min-width: 82%;
+  margin-top: 50px;
+}
+/* cor do fundo do botão*/
+button:hover {
+	background-color: #270486;
+}
+/* Config da Barra de informações */
+
+
+
+.quem-somos {
+	width: 76%;
+	margin: 0 auto;
+	padding: 100px;
+  color: #301868;
+  background-color: #000000;
+  font-size: 26px;
+  text-align: right;
+  float:center;
+  border-color: #5b4398;
+  border-radius: 8px;
+  border: solid;
+  height:300px;
+}
+
+.quemsomos{
+  width: 40%;
+	margin: 0 auto;
+	padding: 1px;
+  color: #301868;
+  text-align: left;
+  float:right;
+}
+.imagem1 {
+width: 500px;
+height: 310px;
+float: left;
+  
+}
+
+.vantagens {
+	width: 76%;
+	margin: 0 auto;
+	padding: 100px;
+  color: #301868;
+  background-color: #000000;
+  font-size: 27px;
+  text-align: left;
+  border-color: #5b4398;
+  border-radius: 8px;
+  border: solid;
+  height: 467px;
+  margin-top: 13px;
+
+}
+
+/*config das perguntas*/
+.Perguntas-frequentes {
+	width: 76%;
+	margin: 0 auto;
+	padding: 100px;
+  color: #301868;
+  background-color: #000000;
+  font-size: 27px;
+  text-align: center;
+  border-color: #5b4398;
+  border-radius: 8px;
+  border: solid;
+  height: 467px;
+  margin-top: 13px;
+  position: relative;
+}
+
+.pergunta {
+  height: 80px;
+  font-size: 28px;
+  width: 96%;
+  background-color: #301868;
+}
+.pergunta2 {
+  height: 80px;
+  font-size: 28px;
+  width: 96%;
+  background-color: #301868;
+}
+.pergunta3 {
+  height: 80px;
+  font-size: 28px;
+  width: 96%;
+  background-color: #301868;
+}
+
+.conteudo-pergunta {
+  background-color: #f2f2f2;
+  
+}
+/*config das perguntas*/
+
+
+/*config do suporte*/
+.suporte {
+	width: 76%;
+	margin: 0 auto;
+	padding: 140px;
+  color: #301868;
+  background-color: #000000;
+  border-color: #5b4398;
+  border-radius: 8px;
+  border: solid;
+  height: 475px;
+  margin-top: 13px;
+  margin-bottom: 10px;
+    
+}
+.texto{
+	width: 50%;
+	padding: 7px;
+  color: #301868;
+  background-color: #000000;
+  font-size: 80px;
+  text-align: left;
+  float:left;
+  border-color: #5b4398;
+  height: 210px;
+
+ 
+}
+.contato {
+  width: 33%;
+  float: right;
+	padding: 40px;
+  border-radius: 8px;
+  color:#301868;
+  background-color: #866edd;
+  text-align: center;
+  height: 300px;
+  font-size: 30px;
+  border: solid;
+
+}
+.whats{
+	border-radius: 5px;
+	background-color: #301868;
+	color: #fff;
+  border:none;
+	cursor: pointer;
+  margin: 0 auto;
+  min-width: 82%;
+  height: 52px;
+}
+
+@media screen and (max-width: 767px) {
+  .logo {
+    font-size: 20px;
+  }
+  .numero {
+    font-size: 18px;
+  }
+  .headline {
+    width: 90%;
+    font-size: 18px;
+    padding: 60px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    height: auto;
+  }
+  .newsletter {
+    width: 100%;
+    height: auto;
+    margin-top: 30px;
+    margin-right: 0;
+    padding: 20px;
+  }
+  input {
+    margin-bottom: 20px;
+  }
+  button {
+    margin-top: 30px;
+  }
+  .quem-somos {
+    padding: 60px;
+    height: auto;
+  }
+  .quemsomos {
+    width: 80%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .imagem1 {
+    width: 100%;
+    height: auto;
+    float: none;
+  }
+  .vantagens {
+    padding: 60px;
+    height: auto;
+  }
+  .Perguntas-frequentes {
+    padding: 60px;
+    height: auto;
+  }
+  .suporte {
+    padding: 60px;
+    height: auto;
+  }
+}
+
+/* Tamanho da tela médio */
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .logo {
+    font-size: 22px;
+  }
+  .numero {
+    font-size: 20px;
+  }
+  .headline {
+    width: 70%;
+    font-size: 22px;
+    padding: 80px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    height: 320px;
+  }
+  .newsletter {
+    width: 50%;
+    height: 400px;
+    margin-top: 90px;
+    margin-right: 0;
+    padding: 20px;
+  }
+  .quem-somos {
+    padding: 80px;
+    height: auto;
+  }
+  .quemsomos {
+    width: 60%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .imagem1 {
+    width: 50%;
+    height: 310px;
+    float: left;
+  }
+  .vantagens {
+    padding: 80px;
+    height: auto;
+  }
+  .Perguntas-frequentes {
+    padding: 80px;
+    height: auto;
+  }
+  .suporte {
+    padding: 80px;
+    height: auto;
+  }
+}
+
+[data-anime]{
+opacity: 0;
+transition:.3s;
+}
+
+[data-anime="right"]{
+  transform: translate3d(-50px, 0, 0);
+}
+
+[data-anime].animate{
+  opacity: 1;
+  transform: translate3d(0px, 0px, 0px);
+}
